@@ -5,7 +5,7 @@ namespace LivingInTheCommandLine.Slides;
 
 internal class TitleSlide : ISlide
 {
-    public async void Show()
+    public void Show()
     {
         AnsiConsole.Clear();
 
@@ -93,6 +93,8 @@ internal class TitleSlide : ISlide
 
         // Done
         AnsiConsole.MarkupLine("[green]Done![/]");
+
+        Thread.Sleep(1000);
     }
 
     private static List<(ProgressTask Task, int Delay)> CreateTasks(ProgressContext progress, Random random)

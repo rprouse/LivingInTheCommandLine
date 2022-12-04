@@ -3,7 +3,8 @@ using Spectre.Console;
 
 var slides = new ISlide[]
 {
-    new TitleSlide()
+    new TitleSlide(),
+    new MakeItBeautifulSlide(),
 };
 
 foreach (var slide in slides)
