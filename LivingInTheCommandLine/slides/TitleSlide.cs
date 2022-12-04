@@ -30,7 +30,7 @@ internal class TitleSlide : ISlide
         AnsiConsole.WriteLine();
         AnsiConsole.WriteLine();
 
-        AnsiConsole.Markup("[Yellow]Engineering >[/] Launch");
+        AnsiConsole.Markup("[Yellow]/deck05/engineering/bay12 >[/] engage --cli");
         Console.ReadLine();
 
         DisplayProgress();
@@ -92,7 +92,7 @@ internal class TitleSlide : ISlide
             });
 
         // Done
-        AnsiConsole.MarkupLine("[green]Done![/]");
+        AnsiConsole.MarkupLine(":check_mark_button: [green]Done![/]");
 
         Thread.Sleep(1000);
     }
@@ -114,7 +114,7 @@ internal class TitleSlide : ISlide
     private static void WriteLogMessage()
     {
         AnsiConsole.MarkupLine(
-            "[grey]LOG:[/] " +
+            ":spiral_notepad: [grey]LOG:[/] " +
             DescriptionGenerator.Generate() +
             "[grey]...[/]");
     }
