@@ -1,7 +1,7 @@
 using LivingInTheCommandLine.Slides;
 using Spectre.Console;
 
-var slides = new Slide[]
+var slides = new ISlide[]
 {
     new TitleSlide()
 };
