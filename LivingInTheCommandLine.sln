@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivingInTheCommandLine", "LivingInTheCommandLine\LivingInTheCommandLine.csproj", "{FCDF231D-A11F-4181-8248-9F8E06C5552B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCDF231D-A11F-4181-8248-9F8E06C5552B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCDF231D-A11F-4181-8248-9F8E06C5552B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCDF231D-A11F-4181-8248-9F8E06C5552B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCDF231D-A11F-4181-8248-9F8E06C5552B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {037282B5-40A1-42E7-9BB5-E6EDD0C6C80E}
+	EndGlobalSection
+EndGlobal
