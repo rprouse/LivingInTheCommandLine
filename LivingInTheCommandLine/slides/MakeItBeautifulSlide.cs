@@ -10,7 +10,7 @@ namespace LivingInTheCommandLine.Slides
 
             Console.CursorTop = 10;
 
-            var font = FigletFont.Load(@"fonts\ANSI Shadow.flf");
+            var font = FigletFont.Load(@"fonts/ANSI Shadow.flf");
             AnsiConsole.Write(
                 new FigletText(font, "Make It")
                     .Centered()
