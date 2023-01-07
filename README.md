@@ -1,14 +1,14 @@
-# Living in the CommandLine
+# Living in the Command Line
 
-An experimental presentation on working in the commandline.
+An experimental presentation on working in the command line.
 
 ## Outline
 
 - Title Slide
 - Make it Beautiful
   - Powershell
-    - [0h-my-posh](https://ohmyposh.dev/)
-    - [posh-Git](https://github.com/dahlbyk/posh-git)
+    - [oh-my-posh](https://ohmyposh.dev/)
+    - [posh-git](https://github.com/dahlbyk/posh-git)
   - Linux/Mac
     - [oh-my-zsh](https://ohmyz.sh/)
     - [oh-my-bash](https://ohmybash.nntoan.com/)

@@ -13,17 +13,17 @@ internal class TitleSlide : ISlide
         AnsiConsole.Write(
             new FigletText(font, "Living")
                 .Centered()
-                .Color(Color.DarkGreen));
+                .Color(Color.Green3));
 
         AnsiConsole.Write(
             new FigletText(font, "in the")
                 .Centered()
-                .Color(Color.Grey));
+                .Color(Color.Silver));
 
         AnsiConsole.Write(
             new FigletText(font, "Command Line")
                 .Centered()
-                .Color(Color.DarkGreen));
+                .Color(Color.Green3));
 
         AnsiConsole.WriteLine();
         AnsiConsole.WriteLine();

@@ -5,6 +5,7 @@ var slides = new ISlide[]
 {
     new TitleSlide(),
     new MakeItBeautifulSlide(),
+    new CloudAndDevelopmentSlide(),
     new AutomateEverythingSlide(),
 };
 

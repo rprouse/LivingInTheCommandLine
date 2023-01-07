@@ -13,12 +13,12 @@ internal class AutomateEverythingSlide : ISlide
         AnsiConsole.Write(
             new FigletText(font, "Automate")
                 .Centered()
-                .Color(Color.Aqua));
+                .Color(Color.SkyBlue1));
 
         AnsiConsole.Write(
             new FigletText(font, "Everything")
                 .Centered()
-                .Color(Color.Green));
+                .Color(Color.GreenYellow));
     }
 
     public void Content()
