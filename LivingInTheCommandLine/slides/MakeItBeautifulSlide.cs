@@ -22,7 +22,7 @@ internal class MakeItBeautifulSlide : ISlide
 
     public void Content()
     {
-        AnsiConsole.Cursor.SetPosition(0, 20);
+        Console.CursorTop = 20;
         var root = new Tree("A Prettier Command Prompt");
         root.Style("darkslategray2");
 
@@ -43,13 +43,13 @@ internal class MakeItBeautifulSlide : ISlide
         Console.ReadLine();
         ps.Expand();
         Console.Clear();
-        AnsiConsole.Cursor.SetPosition(0, 20);
+        Console.CursorTop = 20;
         AnsiConsole.Write(root);
 
         Console.ReadLine();
         linux.Expand();
         Console.Clear();
-        AnsiConsole.Cursor.SetPosition(0, 20);
+        Console.CursorTop = 20;
         AnsiConsole.Write(root);
     }
 }
