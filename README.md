@@ -12,3 +12,10 @@ An experimental presentation on working in the commandline.
 - `git` and `gh` CLI
 - `guppi` personal assistant
 - `todo` text based todos
+
+
+## Outline
+
+- Title Slide
+- Make it Beautiful
+- Automate Everything
