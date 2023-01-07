@@ -1,8 +1,9 @@
+using LivingInTheCommandLine.Slides;
 using Spectre.Console;
 
 namespace LivingInTheCommandLine.Slides;
 
-internal class MakeItBeautifulSlide : ISlide
+internal class AutomateEverythingSlide : ISlide
 {
     public void Title()
     {
@@ -10,14 +11,14 @@ internal class MakeItBeautifulSlide : ISlide
 
         var font = FigletFont.Load(@"fonts/ANSI Shadow.flf");
         AnsiConsole.Write(
-            new FigletText(font, "Make It")
+            new FigletText(font, "Automate")
                 .Centered()
-                .Color(Color.Yellow));
+                .Color(Color.Aqua));
 
         AnsiConsole.Write(
-            new FigletText(font, "Beautiful")
+            new FigletText(font, "Everything")
                 .Centered()
-                .Color(Color.Red));
+                .Color(Color.Green));
     }
 
     public void Content()

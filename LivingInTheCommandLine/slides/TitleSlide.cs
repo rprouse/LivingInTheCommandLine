@@ -5,10 +5,8 @@ namespace LivingInTheCommandLine.Slides;
 
 internal class TitleSlide : ISlide
 {
-    public void Show()
+    public void Title()
     {
-        AnsiConsole.Clear();
-
         Console.CursorTop = 10;
 
         var font = FigletFont.Load(@"fonts/ANSI Shadow.flf");
@@ -31,17 +29,13 @@ internal class TitleSlide : ISlide
         AnsiConsole.WriteLine();
 
         AnsiConsole.Markup("[Yellow]/deck05/engineering/bay12 >[/] engage --cli");
-        Console.ReadLine();
-
-        DisplayProgress();
     }
 
-    private static void DisplayProgress()
+    public void Content()
     {
-        AnsiConsole.Clear();
         AnsiConsole.MarkupLine("[yellow]Initializing warp drive[/]...");
 
-        // Show progress
+        // Title progress
         AnsiConsole.Progress()
             .AutoClear(false)
             .Columns(new ProgressColumn[]
@@ -93,8 +87,6 @@ internal class TitleSlide : ISlide
 
         // Done
         AnsiConsole.MarkupLine(":check_mark_button: [green]Done![/]");
-
-        Thread.Sleep(1000);
     }
 
     private static List<(ProgressTask Task, int Delay)> CreateTasks(ProgressContext progress, Random random)

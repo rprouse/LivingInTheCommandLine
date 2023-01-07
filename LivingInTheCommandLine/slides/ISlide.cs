@@ -2,5 +2,6 @@ namespace LivingInTheCommandLine.Slides;
 
 internal interface ISlide
 {
-    void Show();
+    void Title();
+    void Content();
 }
